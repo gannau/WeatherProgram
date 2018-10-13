@@ -1,3 +1,3 @@
 # WeatherProgram Overview
-Simple weather program that gets the current weather for a specific location. 
+Simple weather program that gets the current weather. 
 The features include the basics such as, date and current temperature of specified location. 
