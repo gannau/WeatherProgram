@@ -5,16 +5,16 @@ public class GetWeather {
 
     private static final String ApiKey = "305be23140a9d5d08890247143be3227";
     private String Location;
-    private String CountryCode;
+    private String StateCode;
     private int Days;
-	private String StateCode;
+    
     
     public GetWeather() {
     }
 
-    public void FeedEntry(String Location, String CountryCode, int Days) {
+    public void FeedEntry(String Location, String StateCode, int Days) {
         this.Location = Location;
-        this.StateCode = CountryCode;
+        this.StateCode = StateCode;
         this.Days = Days;
     }
 
@@ -22,8 +22,8 @@ public class GetWeather {
         this.Location = Location;
     }
 
-    public void setCountryCode(String CountryCode) {
-        this.CountryCode = CountryCode;
+    public void setStateCode(String StateCode) {
+        this.StateCode = StateCode;
     }
 
     public void setDays(int Days) {
@@ -38,8 +38,8 @@ public class GetWeather {
         return Location;
     }
 
-    public String getCountryCode() {
-        return CountryCode;
+    public String getStateCode() {
+        return StateCode;
     }
 
     public String getApiKey() {
